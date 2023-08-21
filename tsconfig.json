@@ -12,5 +12,5 @@
       "lighting-utils/*": ["src/*", "*"]
     }
   },
-  "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]
+  "include": [".dumi/**/*", ".dumirc.ts", "src/**/*", "sidebar.ts"]
 }

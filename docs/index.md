@@ -1,12 +1,12 @@
 ---
 hero:
-  title: library
-  description: A react library developed with dumi
+  title: lighting-utils
+  description: 一个基于业务场景的工具方法库
   actions:
-    - text: Hello
-      link: /
-    - text: World
-      link: /
+    - text: 快速开始
+      link: /guide
+    - text: GitHub
+      link: /https://github.com/llq0802/lighting-utils
 features:
   - title: Hello
     emoji: 💎
