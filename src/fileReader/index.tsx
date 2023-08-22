@@ -12,7 +12,7 @@ type ReadType = keyof typeof FileReaderMethodMap;
  * 读取 Blob 或 File 对象，转为 Base64/String/ArrayBuffer
  * @param {Blob} blob   Blob 或 File 对象
  * @param {keyof typeof FileReaderMethodMap} [type='dataURL'] 转化的类型
- * @return {*}
+ * @return {Promise<any>}  转化的结果 ( Promise )
  */
 function fileReader(blob: Blob, type: 'arrayBuffer'): Promise<ArrayBuffer>;
 function fileReader(
